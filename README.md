@@ -1,12 +1,13 @@
 # Nastasi Games — Legal
 
-Privacy policies and data-deletion notices for **Nastasi Games** (NASTiGAMEs) titles,
+Privacy policies and related legal notices for **Nastasi Games** (NASTiGAMEs) titles,
 published by **Nastasi LLC**. This repository contains documentation only — no game
 source code.
 
-| Title | Privacy Policy | Data Deletion |
-|-------|----------------|---------------|
-| Football Coordinator | [PRIVACY.md](football-coordinator/PRIVACY.md) | [DATA_DELETION.md](football-coordinator/DATA_DELETION.md) |
-| Paws & Pixels | [PRIVACY.md](paws-and-pixels/PRIVACY.md) | [DATA_DELETION.md](paws-and-pixels/DATA_DELETION.md) |
+## Titles
+
+- **Football Coordinator** — [Privacy Policy](football-coordinator/PRIVACY.md) · [Data Deletion](football-coordinator/DATA_DELETION.md)
+- **Paws & Pixels** — [Privacy Policy](paws-and-pixels/PRIVACY.md) · [Data Deletion](paws-and-pixels/DATA_DELETION.md)
+- **Star Imperium** — [Privacy Policy](star-imperium/PRIVACY.md) · [EULA](star-imperium/EULA.md)
 
 Contact: **nastasi65@gmail.com**
