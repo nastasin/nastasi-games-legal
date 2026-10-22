@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Star Imperium — Privacy Policy &amp; EULA</title>
+<meta name="description" content="The Privacy Policy and End-User License Agreement for Star Imperium, published by Nastasi LLC.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
+<style>
+  :root{
+    --bg:#eef1f6; --surface:#ffffff; --ink:#111621; --muted:#54607a;
+    --line:#dbe2ec; --accent:#0c6f7d; --accent-soft:#e2f1f3; --shadow:0 1px 2px rgba(17,22,33,.05),0 8px 24px rgba(17,22,33,.05);
+    --display:"Chakra Petch",ui-sans-serif,system-ui,sans-serif;
+    --body:"Source Serif 4",Georgia,"Times New Roman",serif;
+  }
+  @media (prefers-color-scheme:dark){ :root:not([data-theme="light"]){
+    --bg:#0a0e16; --surface:#111826; --ink:#e7ecf5; --muted:#94a1ba;
+    --line:#212b3d; --accent:#3bcad6; --accent-soft:#10303a; --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 30px rgba(0,0,0,.35);
+  }}
+  :root[data-theme="dark"]{
+    --bg:#0a0e16; --surface:#111826; --ink:#e7ecf5; --muted:#94a1ba;
+    --line:#212b3d; --accent:#3bcad6; --accent-soft:#10303a; --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 30px rgba(0,0,0,.35);
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);line-height:1.65;
+    -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;}
+  a{color:var(--accent);text-underline-offset:2px}
+
+  header.top{position:sticky;top:0;z-index:10;background:color-mix(in srgb,var(--surface) 88%,transparent);
+    backdrop-filter:blur(10px);border-bottom:1px solid var(--line);}
+  .top-inner{max-width:96ch;margin:0 auto;padding:14px 24px;display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 20px;}
+  .wordmark{font-family:var(--display);font-weight:700;letter-spacing:.14em;text-transform:uppercase;
+    font-size:.98rem;color:var(--ink);text-decoration:none;}
+  .wordmark .glyph{color:var(--accent)}
+  .eyebrow{font-family:var(--display);font-weight:600;letter-spacing:.28em;text-transform:uppercase;
+    font-size:.66rem;color:var(--muted);}
+  nav.docnav{margin-left:auto;display:flex;gap:6px;flex-wrap:wrap;}
+  nav.docnav a{font-family:var(--display);font-weight:600;font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;
+    text-decoration:none;color:var(--muted);padding:6px 11px;border:1px solid var(--line);border-radius:999px;white-space:nowrap;}
+  nav.docnav a:hover{color:var(--accent);border-color:var(--accent)}
+
+  .wrap{max-width:96ch;margin:0 auto;padding:0 24px 72px;}
+
+  .lede{padding:40px 0 8px;border-bottom:1px solid var(--line);margin-bottom:8px}
+  .lede h1{font-family:var(--display);font-weight:700;letter-spacing:.01em;font-size:clamp(1.7rem,4.5vw,2.5rem);
+    line-height:1.1;margin:.2em 0 .35em;text-wrap:balance;}
+  .lede p{color:var(--muted);font-size:1rem;max-width:70ch;margin:.2em 0 1.1em}
+  .meta{display:flex;flex-wrap:wrap;gap:6px 22px;font-size:.86rem;color:var(--muted);margin-bottom:1.2em}
+  .meta b{color:var(--ink);font-weight:600}
+
+  details.toc-mobile{display:none;margin:18px 0 0;border:1px solid var(--line);border-radius:12px;
+    background:var(--surface);box-shadow:var(--shadow);overflow:hidden;}
+  details.toc-mobile summary{cursor:pointer;list-style:none;padding:14px 18px;font-family:var(--display);
+    font-weight:700;letter-spacing:.04em;font-size:.86rem;text-transform:uppercase;color:var(--ink);
+    display:flex;align-items:center;justify-content:space-between;}
+  details.toc-mobile summary::-webkit-details-marker{display:none}
+  details.toc-mobile summary::after{content:"+";font-size:1.1rem;color:var(--accent);font-weight:700}
+  details.toc-mobile[open] summary::after{content:"\2013"}
+  details.toc-mobile ol{margin:0;padding:0 18px 16px 34px;}
+  details.toc-mobile li{margin:.5em 0;font-size:.92rem}
+  details.toc-mobile a{color:var(--ink);text-decoration:none}
+  details.toc-mobile a:hover{color:var(--accent)}
+
+  .layout{display:grid;grid-template-columns:1fr;gap:0;margin-top:24px;}
+
+  nav.toc-desktop{display:none;}
+
+  .content{min-width:0;}
+
+  section.doc{padding-top:52px;scroll-margin-top:84px;border-top:1px solid var(--line);}
+  section.doc:first-child{border-top:0;padding-top:8px;}
+  section.doc>h2{font-family:var(--display);font-weight:700;font-size:1.5rem;letter-spacing:.02em;
+    display:flex;align-items:baseline;gap:.6ch;margin:0 0 2px;text-wrap:balance;}
+  section.doc>h2 .tag{font-size:.62rem;letter-spacing:.24em;text-transform:uppercase;color:var(--accent);
+    border:1px solid var(--accent);border-radius:4px;padding:3px 7px;font-weight:600;align-self:center}
+  .docsub{color:var(--muted);font-size:.92rem;margin:.4em 0 1.6em}
+
+  .content p{margin:.85em 0;max-width:70ch;}
+  .content ul,.content ol{margin:.7em 0;padding-left:1.3em;max-width:70ch;}
+  .content li{margin:.5em 0;}
+  .content h3{font-family:var(--display);font-weight:600;font-size:1.02rem;letter-spacing:.03em;
+    text-transform:uppercase;color:var(--accent);margin:1.8em 0 .5em;}
+  .content section.doc>*:first-child{margin-top:0}
+  .content strong{color:var(--ink);font-weight:600}
+  .content em{font-style:italic}
+
+  .callout{border:1px solid var(--line);border-left:3px solid var(--accent);background:var(--surface);
+    box-shadow:var(--shadow);border-radius:10px;padding:14px 18px 16px;margin:1.3em 0;max-width:70ch;}
+  .callout .lab{font-family:var(--display);font-weight:700;letter-spacing:.12em;text-transform:uppercase;
+    font-size:.72rem;color:var(--accent);margin-bottom:.4em;}
+  .callout ul{margin:.3em 0 0;padding-left:1.2em;}
+  .callout li{margin:.4em 0;}
+
+  footer{max-width:96ch;margin:0 auto;padding:28px 24px 56px;color:var(--muted);font-size:.85rem}
+  footer .contact{display:flex;flex-wrap:wrap;gap:4px 24px;margin-bottom:14px}
+  footer a{color:var(--accent)}
+  .disclaim{font-size:.78rem;line-height:1.55;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
+
+  @media (min-width:860px){
+    .layout{grid-template-columns:220px 1fr;gap:40px;align-items:start;}
+    details.toc-mobile{display:none !important;}
+    nav.toc-desktop{display:block;position:sticky;top:84px;align-self:start;max-height:calc(100vh - 110px);overflow:auto;}
+    nav.toc-desktop ol{list-style:none;margin:0;padding:0;counter-reset:toc;}
+    nav.toc-desktop li{counter-increment:toc;margin:2px 0;}
+    nav.toc-desktop a{display:flex;gap:.7ch;align-items:baseline;text-decoration:none;color:var(--muted);
+      font-size:.86rem;padding:6px 8px;border-radius:8px;line-height:1.3;}
+    nav.toc-desktop a::before{content:counter(toc,decimal-leading-zero);font-family:var(--display);
+      font-size:.68rem;color:var(--accent);font-weight:700;}
+    nav.toc-desktop a:hover{background:var(--accent-soft);color:var(--ink);}
+  }
+
+  @media (max-width:859px){
+    details.toc-mobile{display:block;}
+  }
+
+  @media (max-width:520px){
+    nav.docnav{margin-left:0;width:100%}
+    .top-inner{padding:12px 16px}
+    .wrap,footer{padding-left:16px;padding-right:16px}
+  }
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="top-inner">
+    <a class="wordmark" href="#top">Star <span class="glyph">&#9670;</span> Imperium</a>
+    <span class="eyebrow">Legal</span>
+    <nav class="docnav" aria-label="Quick links">
+      <a href="#privacy">Privacy</a>
+      <a href="#eula">EULA</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap" id="top">
+  <div class="lede">
+    <span class="eyebrow">Nastasi LLC &middot; Legal</span>
+    <h1>Star Imperium — Privacy Policy &amp; EULA</h1>
+    <p>The Privacy Policy and End-User License Agreement for Star Imperium. By downloading, installing, or playing the Game, you agree to both.</p>
+    <div class="meta">
+      <span><strong>Game:</strong> Star Imperium</span>
+      <span><strong>Publisher:</strong> Nastasi LLC</span>
+      <span><strong>Effective:</strong> September 1, 2026</span>
+    </div>
+  </div>
+
+  <details class="toc-mobile">
+    <summary>Contents</summary>
+    <ol>
+      <li><a href="#privacy">Privacy Policy</a></li>
+      <li><a href="#eula">End-User License Agreement</a></li>
+    </ol>
+  </details>
+
+  <div class="layout">
+    <nav class="toc-desktop" aria-label="Documents">
+      <ol>
+        <li><a href="#privacy">Privacy Policy</a></li>
+        <li><a href="#eula">End-User License Agreement</a></li>
+      </ol>
+    </nav>
+
+    <div class="content">
+
+      <!-- ============================ PRIVACY POLICY ============================ -->
+      <section class="doc" id="privacy">
+        <h2>Privacy Policy <span class="tag">Privacy</span></h2>
+        <p class="docsub">For <strong>Star Imperium</strong> (&ldquo;the Game&rdquo;), published by <strong>Nastasi LLC</strong> (&ldquo;we&rdquo;, &ldquo;us&rdquo;). &middot; Effective date: September 1, 2026</p>
+
+        <p>What information the Game handles, and how. By playing the Game, you agree to this Policy.</p>
+
+        <div class="callout">
+          <div class="lab">In short</div>
+          <ul>
+            <li>Your game progress and settings are saved <strong>locally on your device</strong>, not sent to us.</li>
+            <li>If you play <strong>online multiplayer or trading</strong>, the Game connects to a game server and exchanges a player identifier and the match/trade data needed to run those features.</li>
+            <li>The Game writes <strong>local crash/error logs</strong> on your device to help diagnose problems; they are not automatically transmitted to us.</li>
+            <li>We do <strong>not</strong> sell your personal information.</li>
+          </ul>
+        </div>
+
+        <h3>1. Summary</h3>
+        <p>Your game progress and settings are saved locally on your device, not sent to us. If you play online multiplayer or trading, the Game connects to a game server and exchanges a player identifier and the match/trade data needed to run those features. The Game writes local crash/error logs on your device to help diagnose problems; they are not automatically transmitted to us. We do not sell your personal information.</p>
+
+        <h3>2. Information Stored Locally on Your Device</h3>
+        <p>The Game stores the following in your operating system's user-data folder, on your device only:</p>
+        <ul>
+          <li><strong>Game progress:</strong> decks, card inventory, in-game credits, campaign progress, faction selection, daily-reward status, and tutorial progress.</li>
+          <li><strong>Settings:</strong> audio, video/display, graphics-quality, and resolution preferences.</li>
+          <li><strong>Crash/error logs:</strong> a local log file recording errors, to help diagnose crashes.</li>
+        </ul>
+        <p>This data stays on your device. You can delete it by clearing the Game's saved data or uninstalling the Game.</p>
+
+        <h3>3. Information Processed for Online Features</h3>
+        <p>If you choose to use online multiplayer or card trading, we (or our hosting provider) process the following to operate those features:</p>
+        <ul>
+          <li>a <strong>player/session identifier</strong> used to connect you to matches and to your opponents or trade partners;</li>
+          <li><strong>gameplay and trade data</strong> exchanged during a session (for example, moves, match state, and offered cards);</li>
+          <li>basic <strong>connection data</strong> such as IP address, which is inherent to networked play and used for connectivity, security, and abuse prevention.</li>
+        </ul>
+        <p>We use this information only to provide, secure, and maintain online features. We do not use it for advertising. We do not operate our own game servers; online connections are handled through Steam, and any server-side connection data is retained by Valve Corporation under its own practices (see Section 6).</p>
+
+        <h3>4. Third-Party Platforms and Services</h3>
+        <ul>
+          <li><strong>Distribution platform (e.g., Steam / Valve Corporation):</strong> if you obtain or run the Game through a third-party store, that platform collects and processes information under its own privacy policy, which we do not control. See the platform's policy (for Steam: Valve's Privacy Policy).</li>
+          <li><strong>Hosting/networking provider:</strong> online features use Steam's networking services, provided by Valve Corporation, which processes connection data to deliver those features under Valve's own privacy policy.</li>
+          <li>The Game does not include third-party analytics, advertising, or tracking SDKs.</li>
+        </ul>
+
+        <h3>5. How We Use Information</h3>
+        <p>We use the limited information described above to: run and maintain the Game and its online features; save and restore your progress and settings on your device; diagnose and fix crashes and bugs; and protect against cheating, fraud, and abuse.</p>
+
+        <h3>6. Data Retention</h3>
+        <p>Local data remains on your device until you delete it. We do not run our own game servers and do not retain server-side session or connection data ourselves; any such data for online play is handled and retained by Valve Corporation (Steam) under Valve's own privacy policy and retention practices.</p>
+
+        <h3>7. Security</h3>
+        <p>We take reasonable measures to protect information processed for online features. No method of transmission or storage is completely secure, and we cannot guarantee absolute security.</p>
+
+        <h3>8. Children's Privacy</h3>
+        <p>The Game is not directed to children under 13, and we do not knowingly collect personal information from them. If you believe a child has provided personal information through the Game's online features, contact us at the address below and we will take appropriate steps.</p>
+
+        <h3>9. Your Rights</h3>
+        <p>Depending on where you live, you may have rights to access, correct, delete, or restrict processing of your personal information, or to object to it (for example, under the EU/UK GDPR or California's CCPA/CPRA). Because most data is stored locally on your device, you can exercise many of these rights directly by managing or deleting the Game's saved data. For requests about any server-side data, contact us at the address below.</p>
+
+        <h3>10. International Transfers</h3>
+        <p>If you use online features, information may be processed in the United States and other regions where Valve Corporation (Steam) operates its networking infrastructure. Where required, we rely on appropriate safeguards for such transfers.</p>
+
+        <h3>11. Changes to This Policy</h3>
+        <p>We may update this Policy from time to time. Material changes will be posted with a new effective date. Continued use of the Game after changes take effect constitutes acceptance.</p>
+
+        <h3>12. Contact</h3>
+        <p>Privacy questions or requests: <a href="mailto:nastigamesdev@gmail.com">nastigamesdev@gmail.com</a>, Nastasi LLC, 4038 Germainder Way, Irvine, CA 92612, USA.</p>
+      </section>
+
+      <!-- ============================ EULA ============================ -->
+      <section class="doc" id="eula">
+        <h2>End-User License Agreement <span class="tag">EULA</span></h2>
+        <p class="docsub">For <strong>Star Imperium</strong> (&ldquo;the Game&rdquo;), published by <strong>Nastasi LLC</strong> (&ldquo;we&rdquo;, &ldquo;us&rdquo;). &middot; Effective date: September 1, 2026</p>
+
+        <p>By downloading, installing, or playing the Game, you (&ldquo;you&rdquo;, the &ldquo;Player&rdquo;) agree to this Agreement. If you do not agree, do not install or play the Game.</p>
+
+        <h3>1. License Grant</h3>
+        <p>Subject to your compliance with this Agreement, we grant you a personal, limited, non-exclusive, non-transferable, non-sublicensable, revocable license to install and play one copy of the Game for your own personal, non-commercial entertainment on devices you own or control.</p>
+
+        <h3>2. Ownership</h3>
+        <p>The Game and all of its content — including code, art, characters, cards, names, music, audio, video, text, and trademarks — are owned by Nastasi LLC or its licensors and are protected by copyright and other intellectual-property laws. Except for the license in Section 1, no rights are granted to you. All rights not expressly granted are reserved.</p>
+
+        <h3>3. Restrictions</h3>
+        <p>You agree not to, and not to allow anyone else to:</p>
+        <ul>
+          <li>copy (except as needed for normal play), sell, rent, lease, sublicense, distribute, or otherwise commercially exploit the Game;</li>
+          <li>reverse engineer, decompile, disassemble, or attempt to derive the source code, except to the extent this restriction is prohibited by applicable law;</li>
+          <li>modify, create derivative works of, or circumvent any technical protection or license mechanism of the Game;</li>
+          <li>remove, alter, or obscure any proprietary notices;</li>
+          <li>use cheats, bots, automation, exploits, or unauthorized third-party software to gain an unfair advantage, disrupt, or interfere with the Game or other players, including in online multiplayer and trading;</li>
+          <li>use the Game to infringe any third party's rights or to violate any law.</li>
+        </ul>
+
+        <h3>4. Online Services and Player Conduct</h3>
+        <p>The Game may offer optional online features (multiplayer matches, card trading). These features are provided &ldquo;as available&rdquo; and may change or be discontinued at any time. When using online features you agree not to harass, abuse, threaten, or defraud other players, and not to transmit unlawful, infringing, or harmful content. We may suspend or terminate access to online features for conduct that violates this Agreement. Your use of online features is also subject to our <a href="#privacy">Privacy Policy</a>.</p>
+
+        <h3>5. Virtual Items</h3>
+        <p>The Game may include in-game items, cards, and virtual currency (&ldquo;Virtual Items&rdquo;). Virtual Items have no monetary value, are not redeemable for real money or anything of value outside the Game, and are licensed — not sold — to you. We may manage, regulate, modify, or remove Virtual Items at any time.</p>
+
+        <h3>6. Updates</h3>
+        <p>We may provide updates, patches, or new versions of the Game, and may modify or discontinue features, with or without notice. This Agreement governs any such updates unless they are accompanied by a separate agreement.</p>
+
+        <h3>7. Third-Party Platforms</h3>
+        <p>If you obtain the Game through a third-party platform or store (for example, Steam / Valve Corporation), your use is also subject to that platform's terms and policies. We are not responsible for third-party platforms.</p>
+
+        <h3>8. Termination</h3>
+        <p>This Agreement is effective until terminated. It terminates automatically if you breach it. On termination you must stop using and delete all copies of the Game. Sections 2, 3, and 9–13 survive termination.</p>
+
+        <h3>9. Disclaimer of Warranties</h3>
+        <p>The Game is provided &ldquo;as is&rdquo; and &ldquo;as available&rdquo;, without warranty of any kind, express or implied, including warranties of merchantability, fitness for a particular purpose, title, and non-infringement. We do not warrant that the Game will be uninterrupted, error-free, or secure. Some jurisdictions do not allow the exclusion of certain warranties, so some of the above may not apply to you.</p>
+
+        <h3>10. Limitation of Liability</h3>
+        <p>To the maximum extent permitted by law, Nastasi LLC will not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of data, profits, or goodwill, arising out of or related to the Game or this Agreement. Our total liability for any claim will not exceed the greater of the amount you paid for the Game or USD 1,000.00. Some jurisdictions do not allow certain limitations, so some of the above may not apply to you.</p>
+
+        <h3>11. Indemnification</h3>
+        <p>You agree to indemnify and hold harmless Nastasi LLC from any claims, damages, and expenses (including reasonable legal fees) arising from your breach of this Agreement or your misuse of the Game.</p>
+
+        <h3>12. Governing Law and Disputes</h3>
+        <p>This Agreement is governed by the laws of the State of California, United States, without regard to its conflict-of-laws rules. The exclusive venue for disputes will be the state and federal courts located in Orange County, California, and you consent to their jurisdiction.</p>
+
+        <h3>13. General</h3>
+        <p>This Agreement is the entire agreement between you and us regarding the Game and supersedes prior understandings. If any provision is held unenforceable, the rest remains in effect. Our failure to enforce a provision is not a waiver. We may assign this Agreement; you may not. We may update this Agreement; material changes will be posted with an updated effective date, and continued use constitutes acceptance.</p>
+
+        <h3>14. Contact</h3>
+        <p>Questions about this Agreement: <a href="mailto:nastigamesdev@gmail.com">nastigamesdev@gmail.com</a>, Nastasi LLC, 4038 Germainder Way, Irvine, CA 92612, USA.</p>
+      </section>
+
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="contact">
+    <span><strong>Nastasi LLC</strong></span>
+    <span><a href="mailto:nastigamesdev@gmail.com">nastigamesdev@gmail.com</a></span>
+    <span><a href="https://nastasin.github.io/starimperium-manual/">Player Manual</a></span>
+  </div>
+  <p class="disclaim">&copy; 2026 Nastasi LLC. Star Imperium and its content are trademarks of Nastasi LLC. This page reproduces the Privacy Policy and End-User License Agreement that ship with the Game. Draft pending final review.</p>
+</footer>
+
+</body>
+</html>
