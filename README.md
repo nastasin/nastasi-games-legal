@@ -8,6 +8,7 @@ source code.
 
 - **Football Coordinator** — [Privacy Policy](football-coordinator/PRIVACY.md) · [Data Deletion](football-coordinator/DATA_DELETION.md)
 - **Paws & Pixels** — [Privacy Policy](paws-and-pixels/PRIVACY.md) · [Data Deletion](paws-and-pixels/DATA_DELETION.md)
+- **Purrjong** — [Privacy Policy](purrjong/PRIVACY.md) · [Data Deletion](purrjong/DATA_DELETION.md)
 - **Star Imperium** — [Privacy Policy](star-imperium/PRIVACY.md) · [EULA](star-imperium/EULA.md)
 
 Contact: **nastigamesdev@gmail.com**
